@@ -34,7 +34,6 @@ public class App {
             switch (generalResponse) { 
                 case "crear":
                 case "crear partido":
-                System.out.println("entra");
                 System.out.println("Introduce el nombre del partido");   
                 String nombrePartido = teclado.nextLine();
                 System.out.println("Introduce el porcentaje de votos del partido");
@@ -45,6 +44,7 @@ public class App {
                 Metodos.limpiarPantalla();
                     break;
                 case "mostrar":
+                case "mostrar resultados":
                     Metodos.mostrarResultados(partidos);
                     Metodos.aprietaEnter(teclado);
                     Metodos.limpiarPantalla();

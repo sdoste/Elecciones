@@ -12,12 +12,12 @@ public class Metodos {
         }
     }
     static void limpiarPantalla(){
-        System.out.println("//      //      //      //      //      //");
-        System.out.println("//      //      //      //      //      //");
-        System.out.println("//      //      //      //      //      //");
-        System.out.println("//      //      //      //      //      //");
-        System.out.println("//      //      //      //      //      //");
-        System.out.println("//      //      //      //      //      //");
+        System.out.println("//                             //");
+        System.out.println("//                             //");
+        System.out.println("//                             //");
+        System.out.println("//                             //");
+        System.out.println("//                             //");
+        System.out.println("//                             //");
     }
     static void aprietaEnter(Scanner teclado){
         String teclaEnter = "d";
